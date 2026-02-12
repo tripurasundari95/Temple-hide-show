@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <title> Temple hide show</title>
+
+</head>
+
+<body>
+
+<h2> Temple</h2>
+
+<img id="demo"
+
+     src="https://images.unsplash.com/photo-1599661046289-e31897846e41"
+
+     alt="temple img"
+
+     width="400">
+
+<br><br>
+
+<button onclick="hideimg()">Hide Image</button>
+
+<button onclick="showimg()">Show Image</button>
+
+<script>
+
+function hideimg() {
+
+  document.getElementById("demo").style.display = "none";
+
+}
+
+function showimg() {
+
+  document.getElementById("demo").style.display = "block";
+
+}
+
+</script>
+
+</body>
+
+</html>
